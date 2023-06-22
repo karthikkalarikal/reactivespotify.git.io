@@ -1,0 +1,23 @@
+.bottom-text-grind {
+  margin-left: 315px;
+  margin-right: 5px;
+  padding-top: 30px;
+  
+}
+.btxthead {
+  font-size: 1rem;
+}
+.btxt {
+  font-size: 0.75rem;
+}
+.btxt-img {
+ width: 40px;
+  border-radius: 20px
+}
+
+.end {
+  padding-bottom: 50px;
+}
+.bottom-text a:hover {
+  text-decoration: underline;
+}

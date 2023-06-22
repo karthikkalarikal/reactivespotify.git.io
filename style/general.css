@@ -1,0 +1,17 @@
+body {
+  font-family: Manrope, Arial;
+  background-color: rgba(8, 7, 7, 0.771);
+  
+}
+.header {
+  position: fixed;
+  left: 315px;
+  right: 10px;
+  top: 0;
+  
+  
+}
+a {
+  color: white;
+  text-decoration: none;
+}

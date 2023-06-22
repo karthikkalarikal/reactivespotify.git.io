@@ -1,0 +1,113 @@
+.sidebar-grid {
+  
+  color: white;
+  position: fixed;
+  background-color: rgb(7, 7, 7);
+  top:10px;
+  bottom:0px;
+  left: 0px;
+  
+}
+.scrolling-container {
+  background-color: rgb(50, 50, 50);
+  padding-left: 10px;
+  margin: 13px;
+  border-radius: 10px;
+
+  height: 135px;
+  overflow: auto;
+}
+.sidebar-heading {
+  padding-top: 15px;
+  font-size: 15px;
+  font-weight: bold;
+  padding-bottom: 8px;
+}
+.sidebar-discription {
+  font-size:14px;
+  font-weight: bold;
+  padding-bottom: 18px;
+}
+.sidebar-button {
+  font-size: 14px;
+  padding:8px;
+  border-radius: 20px;
+  border: none;
+  background-color: white;
+  font-weight: bold;
+  margin-bottom: 20px;
+  
+
+}
+
+.sidebar-img {
+  width:30px;
+  position: relative;
+  top:10px;
+}
+.home-search {
+  margin:10px;
+  background-color: rgb(55, 55, 55);
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  flex-direction: column;
+  padding:15px;
+  border-radius: 10px;
+  font-size: bold;
+  
+}
+
+
+.sidebar-img {
+  padding-right: 15px;
+  padding-top: 5px;
+}
+.library{
+  margin:10px;
+  background-color: rgb(55, 55, 55);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding:15px;
+  border-radius: 10px;
+  font-size: bold;
+  
+}
+
+.plus-sign {
+  font-size: 30px;
+}
+.with-opacity {
+  opacity: 0.7;
+}
+.with-opacity :hover {
+  opacity: 1;
+  
+}
+.sidebar-ending {
+  margin-top: 50px;
+  font-size: 10px;
+  padding-left: 30px;
+  color: rgb(175, 175, 175);
+}
+.sidebar-ending a {
+  margin-left: 5px;
+  
+}
+.sidebar-language-button {
+  
+  border:0.5px solid rgb(255, 251, 251);
+  margin: 20px;
+  border-radius: 25px;
+  
+}
+.sidebar-language-button:hover {
+  border: 1px solid white !important;
+}
+.lang-button {
+  width: 20px;
+  padding-left: 6px;
+  position: relative;
+  top:2px;
+}

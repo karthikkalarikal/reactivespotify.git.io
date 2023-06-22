@@ -1,0 +1,18 @@
+.forward,
+.backward {
+  border-radius: 30px;
+  
+}
+.nav-link {
+  transition: opacity 0.15s;
+}
+.nav-link:hover {
+  opacity: 1 !important;
+}
+.header-container {
+  z-index: 100;
+}
+.header {
+  z-index: 100;
+  overflow: hidden;
+}
