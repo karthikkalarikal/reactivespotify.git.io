@@ -1,6 +1,13 @@
 .video-grid {
   margin-top: 120px;
   margin-left: 315px;
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  gap: 16px;
+  padding-bottom: 16px;
+  scrollbar-width: thin;
+  scrollbar-color: #ccc #fff;
 }
 .card-text {
   font-size: small;

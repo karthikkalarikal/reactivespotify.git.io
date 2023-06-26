@@ -66,7 +66,7 @@
 
 
 
-    <div class="sidebar">
+    <div class="sidebar" id="sidebar">
       <div class="sidebar-grid">
         <div class="home-search">
             <div>
@@ -436,7 +436,20 @@
       });
     </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Vz9gbRJYIadzfuTJl3eHgPhIJEB+O7JQ6u3e4T7vUKSkpLzXjP03mMzDTNUswgBo" crossorigin="anonymous"></script>
+    <script>
+      function myFunction(x) {
+        if(x.matches) {
+          document.getElementById("sidebar").style.display = 'none';
+        }
+        else {
+          document.getElementById("sidebar").style.display = 'block';
+        }
+        
+      }
+      var x = window.matchMedia("(max-width: 700px)");
+      myFunction(x); // Call listener function at run time
+      x.addListener(myFunction); // Attach listener function on state changes
+    </script>
     
-   
   </body>
 </html>
