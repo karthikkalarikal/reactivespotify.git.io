@@ -1,14 +1,36 @@
 .video-grid {
   margin-top: 120px;
-  margin-left: 315px;
+  overflow-x: auto;
+}
+.video-row {
   display: flex;
   flex-wrap: nowrap;
   overflow-x: auto;
-  gap: 16px;
-  padding-bottom: 16px;
-  scrollbar-width: thin;
-  scrollbar-color: #ccc #fff;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
 }
+.video-row::-webkit-scrollbar {
+  width: 0;
+}
+.video-grid .card {
+  flex: 0 0 auto;
+  margin-right: 10px;
+}
+@media (max-width:767px) {
+  .video-grid {
+    overflow-x: hidden;
+  }
+  .video-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .video-grid .card {
+    flex-basis: calc(50% - 10px);
+    margin-bottom: 20px;
+  }
+}
+
 .card-text {
   font-size: small;
 }
@@ -36,7 +58,4 @@
 }
 .music-container:hover .play-button {
   opacity: 1 !important;
-}
-.row {
-  overflow:hidden;
 }
