@@ -59,3 +59,7 @@
 .music-container:hover .play-button {
   opacity: 1 !important;
 }
+img {
+  max-width: 100%; /* Image scales down proportionally to fit within its parent container */
+  height: auto; /* Allows the image to scale proportionally */
+}
