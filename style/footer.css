@@ -22,3 +22,6 @@
 .bottom-text a:hover {
   text-decoration: underline;
 }
+.footer-links {
+  padding: 2rem;
+}
